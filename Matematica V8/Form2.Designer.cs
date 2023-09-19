@@ -42,6 +42,7 @@
             txtX1 = new TextBox();
             label5 = new Label();
             txtX2 = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // brnregresar
@@ -167,13 +168,10 @@
             // 
             // txtX1
             // 
-            /*txtX1.Cursor = Cursors.No;
-            txtX1.Enabled = false;
-            txtX1.Location = new Point(573, 375);
+            txtX1.Location = new Point(301, 12);
             txtX1.Name = "txtX1";
-            txtX1.Size = new Size(186, 27);
-            txtX1.TabIndex = 9;
-            txtX1.TextChanged += txtX1_TextChanged;*/
+            txtX1.Size = new Size(100, 27);
+            txtX1.TabIndex = 13;
             // 
             // label5
             // 
@@ -196,6 +194,15 @@
             txtX2.Size = new Size(186, 27);
             txtX2.TabIndex = 11;
             // 
+            // button1
+            // 
+            button1.Location = new Point(774, 261);
+            button1.Name = "button1";
+            button1.Size = new Size(111, 70);
+            button1.TabIndex = 14;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Ecuadratica
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -203,6 +210,7 @@
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1262, 722);
+            Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(txtX2);
             Controls.Add(label4);
@@ -240,5 +248,6 @@
         private TextBox txtX1;
         private Label label5;
         private TextBox txtX2;
+        private Button button1;
     }
 }
