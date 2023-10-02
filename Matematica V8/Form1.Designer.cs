@@ -103,6 +103,7 @@
             btnrk.TabIndex = 3;
             btnrk.Text = "Regla Kramer";
             btnrk.UseVisualStyleBackColor = false;
+            btnrk.Click += btnrk_Click;
             // 
             // btncb
             // 

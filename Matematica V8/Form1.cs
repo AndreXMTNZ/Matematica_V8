@@ -34,5 +34,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btnrk_Click(object sender, EventArgs e)
+        {
+            rkreamer ventana = new rkreamer();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }
