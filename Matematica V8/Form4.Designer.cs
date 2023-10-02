@@ -33,9 +33,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(577, 442);
+            button1.Location = new Point(351, 310);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(227, 75);
+            button1.Size = new Size(199, 56);
             button1.TabIndex = 0;
             button1.Text = "Regresar";
             button1.UseVisualStyleBackColor = true;
@@ -43,10 +44,11 @@
             // 
             // rkreamer
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1262, 713);
+            ClientSize = new Size(1104, 535);
             Controls.Add(button1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "rkreamer";
             Text = "Regla Kramer";
             ResumeLayout(false);
