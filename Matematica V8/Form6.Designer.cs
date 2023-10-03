@@ -34,6 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources._7;
             ClientSize = new Size(1262, 713);
             Name = "Herencia";
             StartPosition = FormStartPosition.WindowsDefaultBounds;
