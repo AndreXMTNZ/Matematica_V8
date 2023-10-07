@@ -17,21 +17,48 @@ namespace Matematica_V8
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(txtCatetoMenor.Text, out double catetoMenor) &&
+    double.TryParse(txtCatetoMayor.Text, out double catetoMayor))
+            {
+                // Calcular hipotenusa
+                double hipotenusa = Math.Sqrt(Math.Pow(catetoMenor, 2) + Math.Pow(catetoMayor, 2));
+
+                // Calcular ángulo B
+                double anguloB = Math.Atan(catetoMenor / catetoMayor) * (180 / Math.PI);
+
+                // Calcular ángulo C
+                double anguloC = 90 - anguloB;
+
+                // Mostrar resultados en TextBox
+                txtHipotenusa.Text = $"Hipotenusa: {hipotenusa:F2}";
+                txtAnguloB.Text = $"Ángulo B: {anguloB:F2}°";
+                txtAnguloC.Text = $"Ángulo C: {anguloC:F2}°";
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingrese valores válidos para los catetos.", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void LimpiarButton_Click(object sender, EventArgs e)
+        {
+            // Limpiar los datos en TextBox
+            txtCatetoMenor.Clear();
+            txtCatetoMayor.Clear();
+            txtHipotenusa.Clear();
+            txtAnguloB.Clear();
+            txtAnguloC.Clear();
+        }
+
         private void btnrg_Click(object sender, EventArgs e)
         {
-            Menu ventana = new Menu();
-            ventana.Show();
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
             this.Hide();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
+
 }

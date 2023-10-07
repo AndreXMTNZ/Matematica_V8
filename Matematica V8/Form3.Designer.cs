@@ -29,32 +29,138 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(aagudos));
-            btnrg = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtAnguloB = new TextBox();
+            txtAnguloC = new TextBox();
+            txtHipotenusa = new TextBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            txtCatetoMayor = new TextBox();
             label2 = new Label();
-            textBox3 = new TextBox();
+            txtCatetoMenor = new TextBox();
+            label1 = new Label();
+            LimpiarButton = new Button();
+            button1 = new Button();
+            btnrg = new Button();
             SuspendLayout();
             // 
-            // btnrg
+            // txtAnguloB
             // 
-            btnrg.BackColor = Color.FromArgb(35, 179, 179);
-            btnrg.BackgroundImageLayout = ImageLayout.None;
-            btnrg.Cursor = Cursors.Hand;
-            btnrg.FlatAppearance.BorderSize = 0;
-            btnrg.FlatStyle = FlatStyle.Flat;
-            btnrg.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            btnrg.ForeColor = SystemColors.Control;
-            btnrg.Location = new Point(980, 621);
-            btnrg.Name = "btnrg";
-            btnrg.Size = new Size(200, 59);
-            btnrg.TabIndex = 0;
-            btnrg.Text = "Regresar";
-            btnrg.UseVisualStyleBackColor = false;
-            btnrg.Click += btnrg_Click;
+            txtAnguloB.Location = new Point(941, 151);
+            txtAnguloB.Margin = new Padding(3, 2, 3, 2);
+            txtAnguloB.Name = "txtAnguloB";
+            txtAnguloB.Size = new Size(133, 23);
+            txtAnguloB.TabIndex = 38;
+            // 
+            // txtAnguloC
+            // 
+            txtAnguloC.Location = new Point(583, 433);
+            txtAnguloC.Margin = new Padding(3, 2, 3, 2);
+            txtAnguloC.Name = "txtAnguloC";
+            txtAnguloC.Size = new Size(133, 23);
+            txtAnguloC.TabIndex = 37;
+            // 
+            // txtHipotenusa
+            // 
+            txtHipotenusa.Location = new Point(722, 192);
+            txtHipotenusa.Margin = new Padding(3, 2, 3, 2);
+            txtHipotenusa.Name = "txtHipotenusa";
+            txtHipotenusa.Size = new Size(135, 23);
+            txtHipotenusa.TabIndex = 36;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(78, 53, 151);
+            label5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = SystemColors.Control;
+            label5.Location = new Point(482, 433);
+            label5.Name = "label5";
+            label5.Size = new Size(95, 25);
+            label5.TabIndex = 35;
+            label5.Text = "Angulo C";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.FromArgb(78, 53, 151);
+            label4.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.Control;
+            label4.Location = new Point(840, 151);
+            label4.Name = "label4";
+            label4.Size = new Size(95, 25);
+            label4.TabIndex = 34;
+            label4.Text = "Angulo B";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.FromArgb(78, 53, 151);
+            label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.Control;
+            label3.Location = new Point(601, 190);
+            label3.Name = "label3";
+            label3.Size = new Size(115, 25);
+            label3.TabIndex = 33;
+            label3.Text = "Hipotenusa";
+            // 
+            // txtCatetoMayor
+            // 
+            txtCatetoMayor.Location = new Point(159, 227);
+            txtCatetoMayor.Margin = new Padding(3, 2, 3, 2);
+            txtCatetoMayor.Name = "txtCatetoMayor";
+            txtCatetoMayor.Size = new Size(124, 23);
+            txtCatetoMayor.TabIndex = 32;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(78, 53, 151);
+            label2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(13, 224);
+            label2.Name = "label2";
+            label2.Size = new Size(132, 25);
+            label2.TabIndex = 31;
+            label2.Text = "Cateto mayor";
+            // 
+            // txtCatetoMenor
+            // 
+            txtCatetoMenor.Location = new Point(159, 180);
+            txtCatetoMenor.Margin = new Padding(3, 2, 3, 2);
+            txtCatetoMenor.Name = "txtCatetoMenor";
+            txtCatetoMenor.Size = new Size(124, 23);
+            txtCatetoMenor.TabIndex = 30;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(78, 53, 151);
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(13, 177);
+            label1.Name = "label1";
+            label1.Size = new Size(134, 25);
+            label1.TabIndex = 29;
+            label1.Text = "Cateto menor";
+            // 
+            // LimpiarButton
+            // 
+            LimpiarButton.BackColor = Color.FromArgb(35, 179, 179);
+            LimpiarButton.BackgroundImageLayout = ImageLayout.None;
+            LimpiarButton.Cursor = Cursors.Hand;
+            LimpiarButton.FlatAppearance.BorderSize = 0;
+            LimpiarButton.FlatStyle = FlatStyle.Flat;
+            LimpiarButton.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            LimpiarButton.ForeColor = SystemColors.Control;
+            LimpiarButton.Location = new Point(115, 448);
+            LimpiarButton.Margin = new Padding(3, 2, 3, 2);
+            LimpiarButton.Name = "LimpiarButton";
+            LimpiarButton.Size = new Size(175, 44);
+            LimpiarButton.TabIndex = 28;
+            LimpiarButton.Text = "Limpiar";
+            LimpiarButton.UseVisualStyleBackColor = false;
+            LimpiarButton.Click += LimpiarButton_Click;
             // 
             // button1
             // 
@@ -65,91 +171,54 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(208, 525);
+            button1.Location = new Point(115, 377);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(200, 59);
-            button1.TabIndex = 1;
+            button1.Size = new Size(175, 44);
+            button1.TabIndex = 27;
             button1.Text = "Calcular";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // button2
+            // btnrg
             // 
-            button2.BackColor = Color.FromArgb(35, 179, 179);
-            button2.BackgroundImageLayout = ImageLayout.None;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.Control;
-            button2.Location = new Point(208, 620);
-            button2.Name = "button2";
-            button2.Size = new Size(200, 59);
-            button2.TabIndex = 2;
-            button2.Text = "Limpiar";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(78, 53, 151);
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(92, 259);
-            label1.Name = "label1";
-            label1.Size = new Size(160, 31);
-            label1.TabIndex = 3;
-            label1.Text = "Cateto menor";
-            label1.Click += label1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(258, 263);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(141, 27);
-            textBox1.TabIndex = 4;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(258, 325);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(141, 27);
-            textBox2.TabIndex = 6;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.FromArgb(78, 53, 151);
-            label2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(92, 321);
-            label2.Name = "label2";
-            label2.Size = new Size(158, 31);
-            label2.TabIndex = 5;
-            label2.Text = "Cateto mayor";
-            label2.Click += label2_Click;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(806, 249);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(57, 27);
-            textBox3.TabIndex = 7;
+            btnrg.BackColor = Color.FromArgb(35, 179, 179);
+            btnrg.BackgroundImageLayout = ImageLayout.None;
+            btnrg.Cursor = Cursors.Hand;
+            btnrg.FlatAppearance.BorderSize = 0;
+            btnrg.FlatStyle = FlatStyle.Flat;
+            btnrg.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            btnrg.ForeColor = SystemColors.Control;
+            btnrg.Location = new Point(791, 449);
+            btnrg.Margin = new Padding(3, 2, 3, 2);
+            btnrg.Name = "btnrg";
+            btnrg.Size = new Size(175, 44);
+            btnrg.TabIndex = 26;
+            btnrg.Text = "Regresar";
+            btnrg.UseVisualStyleBackColor = false;
+            btnrg.Click += btnrg_Click;
             // 
             // aagudos
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1262, 713);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            ClientSize = new Size(1104, 535);
+            Controls.Add(txtAnguloB);
+            Controls.Add(txtAnguloC);
+            Controls.Add(txtHipotenusa);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(txtCatetoMayor);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(txtCatetoMenor);
             Controls.Add(label1);
-            Controls.Add(button2);
+            Controls.Add(LimpiarButton);
             Controls.Add(button1);
             Controls.Add(btnrg);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             Name = "aagudos";
             Text = "Angulos Agudos";
             ResumeLayout(false);
@@ -158,13 +227,18 @@
 
         #endregion
 
-        private Button btnrg;
-        private Button button1;
-        private Button button2;
-        private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtAnguloB;
+        private TextBox txtAnguloC;
+        private TextBox txtHipotenusa;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private TextBox txtCatetoMayor;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox txtCatetoMenor;
+        private Label label1;
+        private Button LimpiarButton;
+        private Button button1;
+        private Button btnrg;
     }
 }
