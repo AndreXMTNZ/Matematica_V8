@@ -40,8 +40,8 @@ namespace Matematica_V8
                 double x = detX / detSistema;
                 double y = detY / detSistema;
 
-                RESX.Text = $"{Math.Round(x,3)}";
-                RESY.Text = $"{Math.Round(y,3)}";
+                RESX.Text = $"{Math.Round(x, 3)}";
+                RESY.Text = $"{Math.Round(y, 3)}";
             }
             else
             {
@@ -73,6 +73,9 @@ namespace Matematica_V8
             this.Hide();
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
