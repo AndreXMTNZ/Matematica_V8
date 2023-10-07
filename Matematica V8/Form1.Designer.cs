@@ -34,7 +34,7 @@
             btnaa = new Button();
             btnrk = new Button();
             btncb = new Button();
-            btnhr = new Button();
+            herencia = new Button();
             btnpdv = new Button();
             btndracucqueo = new Button();
             btnor = new Button();
@@ -125,22 +125,23 @@
             btncb.Text = "Cajero del Banco";
             btncb.UseVisualStyleBackColor = false;
             // 
-            // btnhr
+            // herencia
             // 
-            btnhr.BackColor = Color.FromArgb(110, 97, 194);
-            btnhr.Cursor = Cursors.Hand;
-            btnhr.FlatAppearance.BorderSize = 0;
-            btnhr.FlatStyle = FlatStyle.Flat;
-            btnhr.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnhr.ForeColor = Color.White;
-            btnhr.Location = new Point(680, 172);
-            btnhr.Margin = new Padding(3, 2, 3, 2);
-            btnhr.Name = "btnhr";
-            btnhr.RightToLeft = RightToLeft.No;
-            btnhr.Size = new Size(280, 40);
-            btnhr.TabIndex = 5;
-            btnhr.Text = "Herencia";
-            btnhr.UseVisualStyleBackColor = false;
+            herencia.BackColor = Color.FromArgb(110, 97, 194);
+            herencia.Cursor = Cursors.Hand;
+            herencia.FlatAppearance.BorderSize = 0;
+            herencia.FlatStyle = FlatStyle.Flat;
+            herencia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            herencia.ForeColor = Color.White;
+            herencia.Location = new Point(680, 172);
+            herencia.Margin = new Padding(3, 2, 3, 2);
+            herencia.Name = "herencia";
+            herencia.RightToLeft = RightToLeft.No;
+            herencia.Size = new Size(280, 40);
+            herencia.TabIndex = 5;
+            herencia.Text = "Herencia";
+            herencia.UseVisualStyleBackColor = false;
+            herencia.Click += btnhr_Click;
             // 
             // btnpdv
             // 
@@ -239,7 +240,7 @@
             Controls.Add(btnor);
             Controls.Add(btndracucqueo);
             Controls.Add(btnpdv);
-            Controls.Add(btnhr);
+            Controls.Add(herencia);
             Controls.Add(btncb);
             Controls.Add(btnrk);
             Controls.Add(btnaa);
@@ -265,5 +266,7 @@
         private Button btnor;
         private Button btnpc;
         private Button btndevs;
+        private Button HERENCIA;
+        private Button herencia;
     }
 }

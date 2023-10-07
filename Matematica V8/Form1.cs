@@ -41,5 +41,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btnhr_Click(object sender, EventArgs e)
+        {
+            Herencia ventana = new Herencia();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }
