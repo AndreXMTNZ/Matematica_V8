@@ -39,5 +39,7 @@ namespace Matematica_V8
             textBoxRosa.Text = $"${montoRosa}";
             textBoxAbogadoResultado.Text = $"${montoAbogado}";
         }//finish
+
+
     }
 }
