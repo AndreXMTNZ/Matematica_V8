@@ -58,6 +58,7 @@ namespace Matematica_V8
             Menu ventanamain = new Menu();
             ventanamain.Show();
             this.Hide();
+            //FIN
         }
     }
 
