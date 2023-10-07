@@ -23,5 +23,10 @@ namespace Matematica_V8
             ventanamain.Show();
             this.Hide();
         }
+
+        private void botoncalc_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
