@@ -46,9 +46,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(91, 408);
+            button1.Location = new Point(401, 341);
             button1.Name = "button1";
-            button1.Size = new Size(213, 42);
+            button1.Size = new Size(96, 42);
             button1.TabIndex = 0;
             button1.Text = "Calcular";
             button1.UseVisualStyleBackColor = true;
@@ -64,9 +64,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(428, 408);
+            button2.Location = new Point(437, 408);
             button2.Name = "button2";
-            button2.Size = new Size(213, 42);
+            button2.Size = new Size(94, 42);
             button2.TabIndex = 32;
             button2.Text = "Limpiar";
             button2.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(719, 408);
+            button3.Location = new Point(916, 513);
             button3.Name = "button3";
             button3.Size = new Size(213, 42);
             button3.TabIndex = 33;
@@ -84,9 +84,9 @@
             // 
             // btnNumero4
             // 
-            btnNumero4.Location = new Point(304, 230);
+            btnNumero4.Location = new Point(75, 312);
             btnNumero4.Name = "btnNumero4";
-            btnNumero4.Size = new Size(213, 42);
+            btnNumero4.Size = new Size(73, 42);
             btnNumero4.TabIndex = 34;
             btnNumero4.Text = "4";
             btnNumero4.UseVisualStyleBackColor = true;
@@ -94,9 +94,9 @@
             // 
             // btnNumero7
             // 
-            btnNumero7.Location = new Point(304, 278);
+            btnNumero7.Location = new Point(75, 360);
             btnNumero7.Name = "btnNumero7";
-            btnNumero7.Size = new Size(213, 42);
+            btnNumero7.Size = new Size(73, 42);
             btnNumero7.TabIndex = 35;
             btnNumero7.Text = "7";
             btnNumero7.UseVisualStyleBackColor = true;
@@ -104,9 +104,9 @@
             // 
             // btnNumero1
             // 
-            btnNumero1.Location = new Point(304, 182);
+            btnNumero1.Location = new Point(75, 264);
             btnNumero1.Name = "btnNumero1";
-            btnNumero1.Size = new Size(213, 42);
+            btnNumero1.Size = new Size(73, 42);
             btnNumero1.TabIndex = 36;
             btnNumero1.Text = "1";
             btnNumero1.UseVisualStyleBackColor = true;
@@ -114,9 +114,9 @@
             // 
             // btnNumero3
             // 
-            btnNumero3.Location = new Point(742, 182);
+            btnNumero3.Location = new Point(233, 264);
             btnNumero3.Name = "btnNumero3";
-            btnNumero3.Size = new Size(213, 42);
+            btnNumero3.Size = new Size(73, 42);
             btnNumero3.TabIndex = 37;
             btnNumero3.Text = "3";
             btnNumero3.UseVisualStyleBackColor = true;
@@ -124,9 +124,9 @@
             // 
             // btnNumero2
             // 
-            btnNumero2.Location = new Point(523, 182);
+            btnNumero2.Location = new Point(154, 264);
             btnNumero2.Name = "btnNumero2";
-            btnNumero2.Size = new Size(213, 42);
+            btnNumero2.Size = new Size(73, 42);
             btnNumero2.TabIndex = 38;
             btnNumero2.Text = "2";
             btnNumero2.UseVisualStyleBackColor = true;
@@ -134,9 +134,9 @@
             // 
             // btnNumero5
             // 
-            btnNumero5.Location = new Point(523, 230);
+            btnNumero5.Location = new Point(154, 312);
             btnNumero5.Name = "btnNumero5";
-            btnNumero5.Size = new Size(213, 42);
+            btnNumero5.Size = new Size(73, 42);
             btnNumero5.TabIndex = 39;
             btnNumero5.Text = "5";
             btnNumero5.UseVisualStyleBackColor = true;
@@ -144,9 +144,9 @@
             // 
             // btnNumero6
             // 
-            btnNumero6.Location = new Point(742, 230);
+            btnNumero6.Location = new Point(233, 312);
             btnNumero6.Name = "btnNumero6";
-            btnNumero6.Size = new Size(213, 42);
+            btnNumero6.Size = new Size(73, 42);
             btnNumero6.TabIndex = 40;
             btnNumero6.Text = "6";
             btnNumero6.UseVisualStyleBackColor = true;
@@ -154,9 +154,9 @@
             // 
             // btnNumero8
             // 
-            btnNumero8.Location = new Point(523, 278);
+            btnNumero8.Location = new Point(154, 360);
             btnNumero8.Name = "btnNumero8";
-            btnNumero8.Size = new Size(213, 42);
+            btnNumero8.Size = new Size(73, 42);
             btnNumero8.TabIndex = 41;
             btnNumero8.Text = "8";
             btnNumero8.UseVisualStyleBackColor = true;
@@ -164,9 +164,9 @@
             // 
             // btnNumero9
             // 
-            btnNumero9.Location = new Point(742, 278);
+            btnNumero9.Location = new Point(233, 360);
             btnNumero9.Name = "btnNumero9";
-            btnNumero9.Size = new Size(213, 42);
+            btnNumero9.Size = new Size(73, 42);
             btnNumero9.TabIndex = 42;
             btnNumero9.Text = "9";
             btnNumero9.UseVisualStyleBackColor = true;
@@ -174,9 +174,9 @@
             // 
             // btnNumero0
             // 
-            btnNumero0.Location = new Point(523, 326);
+            btnNumero0.Location = new Point(75, 408);
             btnNumero0.Name = "btnNumero0";
-            btnNumero0.Size = new Size(213, 42);
+            btnNumero0.Size = new Size(231, 42);
             btnNumero0.TabIndex = 43;
             btnNumero0.Text = "0";
             btnNumero0.UseVisualStyleBackColor = true;
@@ -205,6 +205,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "Cajero";
             Text = "Cajero";
+            Load += Cajero_Load;
             ResumeLayout(false);
             PerformLayout();
         }

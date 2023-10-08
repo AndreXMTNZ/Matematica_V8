@@ -189,5 +189,10 @@ namespace Matematica_V8
                 txtMonto.Text += btn.Text;
             }
         }
+
+        private void Cajero_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
