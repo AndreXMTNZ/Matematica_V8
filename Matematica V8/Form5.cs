@@ -60,7 +60,7 @@ namespace Matematica_V8
         {
             // Limpiar el TextBox y cerrar la ventana
             txtMonto.Text = string.Empty;
-       
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -68,6 +68,126 @@ namespace Matematica_V8
             Menu ventanamain = new Menu();
             ventanamain.Show();
             this.Hide();
+        }
+
+        private void btnNumero0_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero1_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero2_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero3_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero4_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero5_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero6_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero7_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero8_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
+        }
+
+        private void btnNumero9_Click(object sender, EventArgs e)
+        {
+            // Manejar el evento de los botones numéricos
+            Button btn = sender as Button;
+
+            if (btn != null)
+            {
+                // Agregar el número al TextBox
+                txtMonto.Text += btn.Text;
+            }
         }
     }
 }
