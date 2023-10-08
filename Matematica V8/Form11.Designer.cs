@@ -40,9 +40,10 @@
             rgs.FlatStyle = FlatStyle.Flat;
             rgs.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             rgs.ForeColor = SystemColors.ActiveCaptionText;
-            rgs.Location = new Point(538, 646);
+            rgs.Location = new Point(12, 23);
+            rgs.Margin = new Padding(3, 2, 3, 2);
             rgs.Name = "rgs";
-            rgs.Size = new Size(202, 55);
+            rgs.Size = new Size(177, 41);
             rgs.TabIndex = 0;
             rgs.Text = "Regresar";
             rgs.UseVisualStyleBackColor = false;
@@ -50,11 +51,12 @@
             // 
             // Devs
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1262, 713);
+            ClientSize = new Size(1188, 628);
             Controls.Add(rgs);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Devs";
             Text = "Creditos";
             ResumeLayout(false);
