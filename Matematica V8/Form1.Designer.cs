@@ -124,6 +124,7 @@
             btncb.TabIndex = 4;
             btncb.Text = "Cajero del Banco";
             btncb.UseVisualStyleBackColor = false;
+            btncb.Click += btncb_Click;
             // 
             // herencia
             // 

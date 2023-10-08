@@ -39,5 +39,26 @@ namespace Matematica_V8
             textBoxRosa.Text = $"${montoRosa}";
             textBoxAbogadoResultado.Text = $"${montoAbogado}";
         }  //finish
+
+        private void REGRE_Click(object sender, EventArgs e)
+        {
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
+            this.Hide();
+        }
+
+        private void LIMPIAR_Click(object sender, EventArgs e)
+        {
+            textBoxHerencia.Clear();
+            textBoxJuan.Clear();
+            textBoxRosa.Clear();
+            textBoxAbogadoResultado.Clear();
+            
+        }
+
+        private void textBoxHerencia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

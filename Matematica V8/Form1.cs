@@ -48,5 +48,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btncb_Click(object sender, EventArgs e)
+        {
+            Cajero ventana = new Cajero();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            txtCatetoMenor = new TextBox();
+            txtMonto = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -42,13 +42,13 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // txtCatetoMenor
+            // txtMonto
             // 
-            txtCatetoMenor.Location = new Point(126, 150);
-            txtCatetoMenor.Margin = new Padding(3, 2, 3, 2);
-            txtCatetoMenor.Name = "txtCatetoMenor";
-            txtCatetoMenor.Size = new Size(124, 23);
-            txtCatetoMenor.TabIndex = 31;
+            txtMonto.Location = new Point(126, 150);
+            txtMonto.Margin = new Padding(3, 2, 3, 2);
+            txtMonto.Name = "txtMonto";
+            txtMonto.Size = new Size(124, 23);
+            txtMonto.TabIndex = 31;
             // 
             // Cajero
             // 
@@ -56,7 +56,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._6;
             ClientSize = new Size(1104, 535);
-            Controls.Add(txtCatetoMenor);
+            Controls.Add(txtMonto);
             Controls.Add(button1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Cajero";
@@ -68,6 +68,6 @@
         #endregion
 
         private Button button1;
-        private TextBox txtCatetoMenor;
+        private TextBox txtMonto;
     }
 }
