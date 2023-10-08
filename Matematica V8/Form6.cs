@@ -53,10 +53,15 @@ namespace Matematica_V8
             textBoxJuan.Clear();
             textBoxRosa.Clear();
             textBoxAbogadoResultado.Clear();
-            
+
         }
 
         private void textBoxHerencia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Herencia_Load(object sender, EventArgs e)
         {
 
         }

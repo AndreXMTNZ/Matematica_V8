@@ -53,7 +53,7 @@ namespace Matematica_V8
         {
             Cajero ventana = new Cajero();
             ventana.Show();
-            this.Hide(); 
+            this.Hide();
         }
     }
 }

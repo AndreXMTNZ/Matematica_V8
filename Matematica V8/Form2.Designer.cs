@@ -87,7 +87,7 @@
             btnCalcular.FlatStyle = FlatStyle.Flat;
             btnCalcular.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnCalcular.ForeColor = SystemColors.ButtonHighlight;
-            btnCalcular.Location = new Point(229, 467);
+            btnCalcular.Location = new Point(341, 467);
             btnCalcular.Margin = new Padding(3, 2, 3, 2);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(233, 51);
@@ -99,7 +99,7 @@
             // txtA
             // 
             txtA.Cursor = Cursors.IBeam;
-            txtA.Location = new Point(92, 281);
+            txtA.Location = new Point(89, 355);
             txtA.Margin = new Padding(3, 2, 3, 2);
             txtA.Name = "txtA";
             txtA.Size = new Size(163, 23);
@@ -111,7 +111,7 @@
             label1.BackColor = Color.FromArgb(78, 53, 151);
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(59, 274);
+            label1.Location = new Point(56, 348);
             label1.Name = "label1";
             label1.Size = new Size(25, 30);
             label1.TabIndex = 4;
@@ -123,7 +123,7 @@
             label2.BackColor = Color.FromArgb(78, 53, 151);
             label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(59, 322);
+            label2.Location = new Point(56, 396);
             label2.Name = "label2";
             label2.Size = new Size(27, 30);
             label2.TabIndex = 6;
@@ -132,7 +132,7 @@
             // txtB
             // 
             txtB.Cursor = Cursors.IBeam;
-            txtB.Location = new Point(92, 328);
+            txtB.Location = new Point(89, 402);
             txtB.Margin = new Padding(3, 2, 3, 2);
             txtB.Name = "txtB";
             txtB.Size = new Size(163, 23);
@@ -144,7 +144,7 @@
             label3.BackColor = Color.FromArgb(78, 53, 151);
             label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(59, 372);
+            label3.Location = new Point(56, 446);
             label3.Name = "label3";
             label3.Size = new Size(24, 30);
             label3.TabIndex = 8;
@@ -153,7 +153,7 @@
             // txtC
             // 
             txtC.Cursor = Cursors.IBeam;
-            txtC.Location = new Point(92, 379);
+            txtC.Location = new Point(89, 453);
             txtC.Margin = new Padding(3, 2, 3, 2);
             txtC.Name = "txtC";
             txtC.Size = new Size(163, 23);
@@ -165,7 +165,7 @@
             label4.BackColor = Color.FromArgb(78, 53, 151);
             label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(454, 274);
+            label4.Location = new Point(458, 340);
             label4.Name = "label4";
             label4.Size = new Size(38, 30);
             label4.TabIndex = 10;
@@ -173,10 +173,10 @@
             // 
             // txtX1
             // 
-            txtX1.Location = new Point(263, 9);
+            txtX1.Location = new Point(505, 347);
             txtX1.Margin = new Padding(3, 2, 3, 2);
             txtX1.Name = "txtX1";
-            txtX1.Size = new Size(88, 23);
+            txtX1.Size = new Size(163, 23);
             txtX1.TabIndex = 13;
             // 
             // label5
@@ -185,7 +185,7 @@
             label5.BackColor = Color.FromArgb(78, 53, 151);
             label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.Control;
-            label5.Location = new Point(454, 322);
+            label5.Location = new Point(458, 388);
             label5.Name = "label5";
             label5.Size = new Size(38, 30);
             label5.TabIndex = 12;
@@ -195,7 +195,7 @@
             // 
             txtX2.Cursor = Cursors.No;
             txtX2.Enabled = false;
-            txtX2.Location = new Point(501, 330);
+            txtX2.Location = new Point(505, 396);
             txtX2.Margin = new Padding(3, 2, 3, 2);
             txtX2.Name = "txtX2";
             txtX2.Size = new Size(163, 23);

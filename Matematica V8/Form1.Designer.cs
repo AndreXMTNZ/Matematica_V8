@@ -62,7 +62,7 @@
             btnecu.FlatStyle = FlatStyle.Flat;
             btnecu.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnecu.ForeColor = Color.White;
-            btnecu.Location = new Point(248, 139);
+            btnecu.Location = new Point(485, 101);
             btnecu.Margin = new Padding(3, 2, 3, 2);
             btnecu.Name = "btnecu";
             btnecu.RightToLeft = RightToLeft.No;
@@ -80,7 +80,7 @@
             btnaa.FlatStyle = FlatStyle.Flat;
             btnaa.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnaa.ForeColor = Color.White;
-            btnaa.Location = new Point(248, 183);
+            btnaa.Location = new Point(248, 172);
             btnaa.Margin = new Padding(3, 2, 3, 2);
             btnaa.Name = "btnaa";
             btnaa.RightToLeft = RightToLeft.No;
@@ -134,7 +134,7 @@
             herencia.FlatStyle = FlatStyle.Flat;
             herencia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             herencia.ForeColor = Color.White;
-            herencia.Location = new Point(680, 172);
+            herencia.Location = new Point(257, 411);
             herencia.Margin = new Padding(3, 2, 3, 2);
             herencia.Name = "herencia";
             herencia.RightToLeft = RightToLeft.No;
@@ -203,7 +203,7 @@
             btnpc.FlatStyle = FlatStyle.Flat;
             btnpc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnpc.ForeColor = Color.White;
-            btnpc.Location = new Point(257, 411);
+            btnpc.Location = new Point(704, 172);
             btnpc.Margin = new Padding(3, 2, 3, 2);
             btnpc.Name = "btnpc";
             btnpc.RightToLeft = RightToLeft.No;

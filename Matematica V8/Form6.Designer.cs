@@ -187,7 +187,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._7;
-            ClientSize = new Size(960, 503);
+            ClientSize = new Size(1066, 642);
             Controls.Add(REGRE);
             Controls.Add(LIMPIAR);
             Controls.Add(label5);
@@ -205,6 +205,7 @@
             Name = "Herencia";
             StartPosition = FormStartPosition.WindowsDefaultBounds;
             Text = "Herencia";
+            Load += Herencia_Load;
             ResumeLayout(false);
             PerformLayout();
         }
