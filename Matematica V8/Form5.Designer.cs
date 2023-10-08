@@ -47,7 +47,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(401, 341);
+            button1.Location = new Point(373, 295);
             button1.Name = "button1";
             button1.Size = new Size(96, 42);
             button1.TabIndex = 0;
@@ -57,15 +57,15 @@
             // 
             // txtMonto
             // 
-            txtMonto.Location = new Point(125, 182);
+            txtMonto.Location = new Point(120, 249);
             txtMonto.Margin = new Padding(3, 2, 3, 2);
             txtMonto.Name = "txtMonto";
-            txtMonto.Size = new Size(124, 23);
+            txtMonto.Size = new Size(177, 23);
             txtMonto.TabIndex = 31;
             // 
             // button2
             // 
-            button2.Location = new Point(437, 408);
+            button2.Location = new Point(375, 355);
             button2.Name = "button2";
             button2.Size = new Size(94, 42);
             button2.TabIndex = 32;
@@ -85,7 +85,7 @@
             // 
             // btnNumero4
             // 
-            btnNumero4.Location = new Point(75, 312);
+            btnNumero4.Location = new Point(120, 343);
             btnNumero4.Name = "btnNumero4";
             btnNumero4.Size = new Size(73, 42);
             btnNumero4.TabIndex = 34;
@@ -95,7 +95,7 @@
             // 
             // btnNumero7
             // 
-            btnNumero7.Location = new Point(75, 360);
+            btnNumero7.Location = new Point(120, 391);
             btnNumero7.Name = "btnNumero7";
             btnNumero7.Size = new Size(73, 42);
             btnNumero7.TabIndex = 35;
@@ -105,7 +105,7 @@
             // 
             // btnNumero1
             // 
-            btnNumero1.Location = new Point(75, 264);
+            btnNumero1.Location = new Point(120, 295);
             btnNumero1.Name = "btnNumero1";
             btnNumero1.Size = new Size(73, 42);
             btnNumero1.TabIndex = 36;
@@ -115,7 +115,7 @@
             // 
             // btnNumero3
             // 
-            btnNumero3.Location = new Point(233, 264);
+            btnNumero3.Location = new Point(278, 295);
             btnNumero3.Name = "btnNumero3";
             btnNumero3.Size = new Size(73, 42);
             btnNumero3.TabIndex = 37;
@@ -125,7 +125,7 @@
             // 
             // btnNumero2
             // 
-            btnNumero2.Location = new Point(154, 264);
+            btnNumero2.Location = new Point(199, 295);
             btnNumero2.Name = "btnNumero2";
             btnNumero2.Size = new Size(73, 42);
             btnNumero2.TabIndex = 38;
@@ -135,7 +135,7 @@
             // 
             // btnNumero5
             // 
-            btnNumero5.Location = new Point(154, 312);
+            btnNumero5.Location = new Point(199, 343);
             btnNumero5.Name = "btnNumero5";
             btnNumero5.Size = new Size(73, 42);
             btnNumero5.TabIndex = 39;
@@ -145,7 +145,7 @@
             // 
             // btnNumero6
             // 
-            btnNumero6.Location = new Point(233, 312);
+            btnNumero6.Location = new Point(278, 343);
             btnNumero6.Name = "btnNumero6";
             btnNumero6.Size = new Size(73, 42);
             btnNumero6.TabIndex = 40;
@@ -155,7 +155,7 @@
             // 
             // btnNumero8
             // 
-            btnNumero8.Location = new Point(154, 360);
+            btnNumero8.Location = new Point(199, 391);
             btnNumero8.Name = "btnNumero8";
             btnNumero8.Size = new Size(73, 42);
             btnNumero8.TabIndex = 41;
@@ -165,7 +165,7 @@
             // 
             // btnNumero9
             // 
-            btnNumero9.Location = new Point(233, 360);
+            btnNumero9.Location = new Point(278, 391);
             btnNumero9.Name = "btnNumero9";
             btnNumero9.Size = new Size(73, 42);
             btnNumero9.TabIndex = 42;
@@ -175,7 +175,7 @@
             // 
             // btnNumero0
             // 
-            btnNumero0.Location = new Point(75, 408);
+            btnNumero0.Location = new Point(120, 439);
             btnNumero0.Name = "btnNumero0";
             btnNumero0.Size = new Size(231, 42);
             btnNumero0.TabIndex = 43;
