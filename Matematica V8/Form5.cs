@@ -55,5 +55,19 @@ namespace Matematica_V8
 
             MessageBox.Show(resultado, "Resultado del retiro");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Limpiar el TextBox y cerrar la ventana
+            txtMonto.Text = string.Empty;
+       
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
+            this.Hide();
+        }
     }
 }
