@@ -53,6 +53,7 @@
             // 
             // textBoxJuan
             // 
+            textBoxJuan.Enabled = false;
             textBoxJuan.Location = new Point(628, 194);
             textBoxJuan.Margin = new Padding(3, 2, 3, 2);
             textBoxJuan.Name = "textBoxJuan";
@@ -79,6 +80,7 @@
             // 
             // textBoxLuis
             // 
+            textBoxLuis.Enabled = false;
             textBoxLuis.Location = new Point(628, 240);
             textBoxLuis.Margin = new Padding(3, 2, 3, 2);
             textBoxLuis.Name = "textBoxLuis";
@@ -87,6 +89,7 @@
             // 
             // textBoxRosa
             // 
+            textBoxRosa.Enabled = false;
             textBoxRosa.Location = new Point(628, 281);
             textBoxRosa.Margin = new Padding(3, 2, 3, 2);
             textBoxRosa.Name = "textBoxRosa";
@@ -95,6 +98,7 @@
             // 
             // textBoxAbogadoResultado
             // 
+            textBoxAbogadoResultado.Enabled = false;
             textBoxAbogadoResultado.Location = new Point(628, 318);
             textBoxAbogadoResultado.Margin = new Padding(3, 2, 3, 2);
             textBoxAbogadoResultado.Name = "textBoxAbogadoResultado";

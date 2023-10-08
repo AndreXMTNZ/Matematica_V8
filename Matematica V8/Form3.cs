@@ -32,9 +32,9 @@ namespace Matematica_V8
                 double anguloC = 90 - anguloB;
 
                 // Mostrar resultados en TextBox
-                txtHipotenusa.Text = $"Hipotenusa: {hipotenusa:F2}";
-                txtAnguloB.Text = $"Ángulo B: {anguloB:F2}°";
-                txtAnguloC.Text = $"Ángulo C: {anguloC:F2}°";
+                txtHipotenusa.Text = $" {hipotenusa:F2}";
+                txtAnguloB.Text = $" {anguloB:F2}°";
+                txtAnguloC.Text = $" {anguloC:F2}°";
             }
             else
             {
@@ -62,6 +62,11 @@ namespace Matematica_V8
         }
 
         private void aagudos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHipotenusa_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -46,6 +46,7 @@
             // 
             // txtAnguloB
             // 
+            txtAnguloB.Enabled = false;
             txtAnguloB.Location = new Point(1029, 177);
             txtAnguloB.Margin = new Padding(3, 2, 3, 2);
             txtAnguloB.Name = "txtAnguloB";
@@ -54,6 +55,7 @@
             // 
             // txtAnguloC
             // 
+            txtAnguloC.Enabled = false;
             txtAnguloC.Location = new Point(615, 448);
             txtAnguloC.Margin = new Padding(3, 2, 3, 2);
             txtAnguloC.Name = "txtAnguloC";
@@ -62,11 +64,13 @@
             // 
             // txtHipotenusa
             // 
+            txtHipotenusa.Enabled = false;
             txtHipotenusa.Location = new Point(702, 208);
             txtHipotenusa.Margin = new Padding(3, 2, 3, 2);
             txtHipotenusa.Name = "txtHipotenusa";
             txtHipotenusa.Size = new Size(135, 23);
             txtHipotenusa.TabIndex = 36;
+            txtHipotenusa.TextChanged += txtHipotenusa_TextChanged;
             // 
             // label5
             // 

@@ -173,6 +173,7 @@
             // 
             // txtX1
             // 
+            txtX1.Enabled = false;
             txtX1.Location = new Point(505, 347);
             txtX1.Margin = new Padding(3, 2, 3, 2);
             txtX1.Name = "txtX1";
