@@ -42,6 +42,7 @@
             btnNumero8 = new Button();
             btnNumero9 = new Button();
             btnNumero0 = new Button();
+            label4 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -50,13 +51,13 @@
             button1.Name = "button1";
             button1.Size = new Size(96, 42);
             button1.TabIndex = 0;
-            button1.Text = "Calcular";
+            button1.Text = "RETIRAR";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // txtMonto
             // 
-            txtMonto.Location = new Point(126, 150);
+            txtMonto.Location = new Point(125, 182);
             txtMonto.Margin = new Padding(3, 2, 3, 2);
             txtMonto.Name = "txtMonto";
             txtMonto.Size = new Size(124, 23);
@@ -68,7 +69,7 @@
             button2.Name = "button2";
             button2.Size = new Size(94, 42);
             button2.TabIndex = 32;
-            button2.Text = "Limpiar";
+            button2.Text = "NUEVO RETIRO";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -78,7 +79,7 @@
             button3.Name = "button3";
             button3.Size = new Size(213, 42);
             button3.TabIndex = 33;
-            button3.Text = "Regresar";
+            button3.Text = "VOLVER AL MENU";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
@@ -182,12 +183,24 @@
             btnNumero0.UseVisualStyleBackColor = true;
             btnNumero0.Click += btnNumero0_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.FromArgb(78, 53, 151);
+            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = SystemColors.Control;
+            label4.Location = new Point(125, 150);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 30);
+            label4.TabIndex = 44;
+            // 
             // Cajero
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._6;
             ClientSize = new Size(1172, 567);
+            Controls.Add(label4);
             Controls.Add(btnNumero0);
             Controls.Add(btnNumero9);
             Controls.Add(btnNumero8);
@@ -236,5 +249,6 @@
         private Button btnNumero6;
         private Button btnNumero8;
         private Button btnNumero9;
+        private Label label4;
     }
 }
