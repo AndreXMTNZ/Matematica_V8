@@ -42,7 +42,6 @@
             txtX1 = new TextBox();
             label5 = new Label();
             txtX2 = new TextBox();
-            button1 = new Button();
             SuspendLayout();
             // 
             // brnregresar
@@ -53,9 +52,10 @@
             brnregresar.FlatStyle = FlatStyle.Flat;
             brnregresar.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             brnregresar.ForeColor = SystemColors.Control;
-            brnregresar.Location = new Point(921, 604);
+            brnregresar.Location = new Point(806, 453);
+            brnregresar.Margin = new Padding(3, 2, 3, 2);
             brnregresar.Name = "brnregresar";
-            brnregresar.Size = new Size(256, 70);
+            brnregresar.Size = new Size(224, 52);
             brnregresar.TabIndex = 0;
             brnregresar.Text = "Regresar";
             brnregresar.UseVisualStyleBackColor = false;
@@ -69,9 +69,10 @@
             btnLipiar.FlatStyle = FlatStyle.Flat;
             btnLipiar.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnLipiar.ForeColor = SystemColors.Control;
-            btnLipiar.Location = new Point(922, 449);
+            btnLipiar.Location = new Point(807, 337);
+            btnLipiar.Margin = new Padding(3, 2, 3, 2);
             btnLipiar.Name = "btnLipiar";
-            btnLipiar.Size = new Size(256, 72);
+            btnLipiar.Size = new Size(224, 54);
             btnLipiar.TabIndex = 1;
             btnLipiar.Text = "Limpiar";
             btnLipiar.UseVisualStyleBackColor = false;
@@ -86,9 +87,10 @@
             btnCalcular.FlatStyle = FlatStyle.Flat;
             btnCalcular.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnCalcular.ForeColor = SystemColors.ButtonHighlight;
-            btnCalcular.Location = new Point(262, 623);
+            btnCalcular.Location = new Point(341, 467);
+            btnCalcular.Margin = new Padding(3, 2, 3, 2);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(266, 68);
+            btnCalcular.Size = new Size(233, 51);
             btnCalcular.TabIndex = 2;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = false;
@@ -97,9 +99,10 @@
             // txtA
             // 
             txtA.Cursor = Cursors.IBeam;
-            txtA.Location = new Point(105, 375);
+            txtA.Location = new Point(89, 355);
+            txtA.Margin = new Padding(3, 2, 3, 2);
             txtA.Name = "txtA";
-            txtA.Size = new Size(186, 27);
+            txtA.Size = new Size(163, 23);
             txtA.TabIndex = 3;
             // 
             // label1
@@ -108,9 +111,9 @@
             label1.BackColor = Color.FromArgb(78, 53, 151);
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(67, 366);
+            label1.Location = new Point(56, 348);
             label1.Name = "label1";
-            label1.Size = new Size(32, 38);
+            label1.Size = new Size(25, 30);
             label1.TabIndex = 4;
             label1.Text = "a";
             // 
@@ -120,18 +123,19 @@
             label2.BackColor = Color.FromArgb(78, 53, 151);
             label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(67, 429);
+            label2.Location = new Point(56, 396);
             label2.Name = "label2";
-            label2.Size = new Size(34, 38);
+            label2.Size = new Size(27, 30);
             label2.TabIndex = 6;
             label2.Text = "b";
             // 
             // txtB
             // 
             txtB.Cursor = Cursors.IBeam;
-            txtB.Location = new Point(105, 438);
+            txtB.Location = new Point(89, 402);
+            txtB.Margin = new Padding(3, 2, 3, 2);
             txtB.Name = "txtB";
-            txtB.Size = new Size(186, 27);
+            txtB.Size = new Size(163, 23);
             txtB.TabIndex = 5;
             // 
             // label3
@@ -140,18 +144,19 @@
             label3.BackColor = Color.FromArgb(78, 53, 151);
             label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(67, 496);
+            label3.Location = new Point(56, 446);
             label3.Name = "label3";
-            label3.Size = new Size(30, 38);
+            label3.Size = new Size(24, 30);
             label3.TabIndex = 8;
             label3.Text = "c";
             // 
             // txtC
             // 
             txtC.Cursor = Cursors.IBeam;
-            txtC.Location = new Point(105, 505);
+            txtC.Location = new Point(89, 453);
+            txtC.Margin = new Padding(3, 2, 3, 2);
             txtC.Name = "txtC";
-            txtC.Size = new Size(186, 27);
+            txtC.Size = new Size(163, 23);
             txtC.TabIndex = 7;
             // 
             // label4
@@ -160,17 +165,18 @@
             label4.BackColor = Color.FromArgb(78, 53, 151);
             label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(519, 366);
+            label4.Location = new Point(458, 340);
             label4.Name = "label4";
-            label4.Size = new Size(48, 38);
+            label4.Size = new Size(38, 30);
             label4.TabIndex = 10;
             label4.Text = "x1";
             // 
             // txtX1
             // 
-            txtX1.Location = new Point(301, 12);
+            txtX1.Location = new Point(505, 347);
+            txtX1.Margin = new Padding(3, 2, 3, 2);
             txtX1.Name = "txtX1";
-            txtX1.Size = new Size(100, 27);
+            txtX1.Size = new Size(163, 23);
             txtX1.TabIndex = 13;
             // 
             // label5
@@ -179,9 +185,9 @@
             label5.BackColor = Color.FromArgb(78, 53, 151);
             label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.Control;
-            label5.Location = new Point(519, 429);
+            label5.Location = new Point(458, 388);
             label5.Name = "label5";
-            label5.Size = new Size(48, 38);
+            label5.Size = new Size(38, 30);
             label5.TabIndex = 12;
             label5.Text = "x2";
             // 
@@ -189,28 +195,19 @@
             // 
             txtX2.Cursor = Cursors.No;
             txtX2.Enabled = false;
-            txtX2.Location = new Point(573, 440);
+            txtX2.Location = new Point(505, 396);
+            txtX2.Margin = new Padding(3, 2, 3, 2);
             txtX2.Name = "txtX2";
-            txtX2.Size = new Size(186, 27);
+            txtX2.Size = new Size(163, 23);
             txtX2.TabIndex = 11;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(774, 261);
-            button1.Name = "button1";
-            button1.Size = new Size(111, 70);
-            button1.TabIndex = 14;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // Ecuadratica
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1262, 722);
-            Controls.Add(button1);
+            ClientSize = new Size(1104, 542);
             Controls.Add(label5);
             Controls.Add(txtX2);
             Controls.Add(label4);
@@ -225,6 +222,7 @@
             Controls.Add(btnLipiar);
             Controls.Add(brnregresar);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             MinimizeBox = false;
             Name = "Ecuadratica";
             Text = "Ecuadratica";
