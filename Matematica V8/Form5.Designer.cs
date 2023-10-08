@@ -30,6 +30,8 @@
         {
             button1 = new Button();
             txtMonto = new TextBox();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -50,12 +52,34 @@
             txtMonto.Size = new Size(124, 23);
             txtMonto.TabIndex = 31;
             // 
+            // button2
+            // 
+            button2.Location = new Point(428, 408);
+            button2.Name = "button2";
+            button2.Size = new Size(213, 42);
+            button2.TabIndex = 32;
+            button2.Text = "Limpiar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(719, 408);
+            button3.Name = "button3";
+            button3.Size = new Size(213, 42);
+            button3.TabIndex = 33;
+            button3.Text = "Regresar";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Cajero
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._6;
             ClientSize = new Size(1104, 535);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(txtMonto);
             Controls.Add(button1);
             Margin = new Padding(3, 2, 3, 2);
@@ -69,5 +93,7 @@
 
         private Button button1;
         private TextBox txtMonto;
+        private Button button2;
+        private Button button3;
     }
 }
