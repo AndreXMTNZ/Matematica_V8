@@ -38,8 +38,6 @@ namespace Matematica_V8
             textBoxLuis.Text = $"${montoLuis}";
             textBoxRosa.Text = $"${montoRosa}";
             textBoxAbogadoResultado.Text = $"${montoAbogado}";
-        }//finish
-
-
+        }  //finish
     }
 }
