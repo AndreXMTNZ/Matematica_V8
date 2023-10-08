@@ -76,7 +76,7 @@
             // textR
             // 
             textR.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textR.Location = new Point(556, 186);
+            textR.Location = new Point(566, 186);
             textR.Name = "textR";
             textR.Size = new Size(81, 39);
             textR.TabIndex = 6;
@@ -84,7 +84,7 @@
             // textS
             // 
             textS.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textS.Location = new Point(556, 286);
+            textS.Location = new Point(566, 286);
             textS.Name = "textS";
             textS.Size = new Size(81, 39);
             textS.TabIndex = 12;
