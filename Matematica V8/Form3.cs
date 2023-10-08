@@ -60,6 +60,11 @@ namespace Matematica_V8
             this.Hide();
             //FIN
         }
+
+        private void aagudos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

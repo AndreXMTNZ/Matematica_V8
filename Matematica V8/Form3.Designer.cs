@@ -46,7 +46,7 @@
             // 
             // txtAnguloB
             // 
-            txtAnguloB.Location = new Point(941, 151);
+            txtAnguloB.Location = new Point(1029, 177);
             txtAnguloB.Margin = new Padding(3, 2, 3, 2);
             txtAnguloB.Name = "txtAnguloB";
             txtAnguloB.Size = new Size(133, 23);
@@ -54,7 +54,7 @@
             // 
             // txtAnguloC
             // 
-            txtAnguloC.Location = new Point(583, 433);
+            txtAnguloC.Location = new Point(615, 448);
             txtAnguloC.Margin = new Padding(3, 2, 3, 2);
             txtAnguloC.Name = "txtAnguloC";
             txtAnguloC.Size = new Size(133, 23);
@@ -62,7 +62,7 @@
             // 
             // txtHipotenusa
             // 
-            txtHipotenusa.Location = new Point(722, 192);
+            txtHipotenusa.Location = new Point(702, 208);
             txtHipotenusa.Margin = new Padding(3, 2, 3, 2);
             txtHipotenusa.Name = "txtHipotenusa";
             txtHipotenusa.Size = new Size(135, 23);
@@ -74,7 +74,7 @@
             label5.BackColor = Color.FromArgb(78, 53, 151);
             label5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.Control;
-            label5.Location = new Point(482, 433);
+            label5.Location = new Point(514, 448);
             label5.Name = "label5";
             label5.Size = new Size(95, 25);
             label5.TabIndex = 35;
@@ -86,7 +86,7 @@
             label4.BackColor = Color.FromArgb(78, 53, 151);
             label4.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(840, 151);
+            label4.Location = new Point(928, 177);
             label4.Name = "label4";
             label4.Size = new Size(95, 25);
             label4.TabIndex = 34;
@@ -98,7 +98,7 @@
             label3.BackColor = Color.FromArgb(78, 53, 151);
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(601, 190);
+            label3.Location = new Point(581, 206);
             label3.Name = "label3";
             label3.Size = new Size(115, 25);
             label3.TabIndex = 33;
@@ -203,7 +203,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1104, 535);
+            ClientSize = new Size(1174, 535);
             Controls.Add(txtAnguloB);
             Controls.Add(txtAnguloC);
             Controls.Add(txtHipotenusa);
@@ -221,6 +221,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "aagudos";
             Text = "Angulos Agudos";
+            Load += aagudos_Load;
             ResumeLayout(false);
             PerformLayout();
         }
