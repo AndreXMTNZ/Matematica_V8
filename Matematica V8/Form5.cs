@@ -194,5 +194,14 @@ namespace Matematica_V8
         {
 
         }
+
+        private void btnBorrarUltimo_Click(object sender, EventArgs e)
+        {
+            // Borrar el último dígito del TextBox
+            if (txtMonto.Text.Length > 0)
+            {
+                txtMonto.Text = txtMonto.Text.Substring(0, txtMonto.Text.Length - 1);
+            }
+        }
     }
 }
