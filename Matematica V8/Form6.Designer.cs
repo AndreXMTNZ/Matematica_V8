@@ -50,6 +50,7 @@
             textBoxHerencia.Name = "textBoxHerencia";
             textBoxHerencia.Size = new Size(124, 23);
             textBoxHerencia.TabIndex = 31;
+            textBoxHerencia.TextChanged += textBoxHerencia_TextChanged;
             // 
             // textBoxJuan
             // 
@@ -163,21 +164,23 @@
             // 
             // LIMPIAR
             // 
-            LIMPIAR.Location = new Point(653, 368);
+            LIMPIAR.Location = new Point(661, 362);
             LIMPIAR.Name = "LIMPIAR";
-            LIMPIAR.Size = new Size(117, 40);
+            LIMPIAR.Size = new Size(109, 40);
             LIMPIAR.TabIndex = 45;
             LIMPIAR.Text = "LIMPIAR";
             LIMPIAR.UseVisualStyleBackColor = true;
+            LIMPIAR.Click += LIMPIAR_Click;
             // 
             // REGRE
             // 
-            REGRE.Location = new Point(12, 449);
+            REGRE.Location = new Point(661, 435);
             REGRE.Name = "REGRE";
             REGRE.Size = new Size(109, 42);
             REGRE.TabIndex = 46;
             REGRE.Text = "REGRESAR";
             REGRE.UseVisualStyleBackColor = true;
+            REGRE.Click += REGRE_Click;
             // 
             // Herencia
             // 
