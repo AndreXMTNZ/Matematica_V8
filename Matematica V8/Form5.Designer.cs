@@ -29,32 +29,45 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            txtCatetoMenor = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(497, 592);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(91, 408);
             button1.Name = "button1";
-            button1.Size = new Size(243, 56);
+            button1.Size = new Size(213, 42);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Calcular";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // txtCatetoMenor
+            // 
+            txtCatetoMenor.Location = new Point(126, 150);
+            txtCatetoMenor.Margin = new Padding(3, 2, 3, 2);
+            txtCatetoMenor.Name = "txtCatetoMenor";
+            txtCatetoMenor.Size = new Size(124, 23);
+            txtCatetoMenor.TabIndex = 31;
             // 
             // Cajero
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._6;
-            ClientSize = new Size(1262, 713);
+            ClientSize = new Size(1104, 535);
+            Controls.Add(txtCatetoMenor);
             Controls.Add(button1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Cajero";
             Text = "Cajero";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
+        private TextBox txtCatetoMenor;
     }
 }
