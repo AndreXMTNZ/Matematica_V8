@@ -50,7 +50,6 @@
             textBoxHerencia.Name = "textBoxHerencia";
             textBoxHerencia.Size = new Size(124, 23);
             textBoxHerencia.TabIndex = 31;
-
             // 
             // textBoxJuan
             // 
@@ -170,7 +169,7 @@
             LIMPIAR.TabIndex = 45;
             LIMPIAR.Text = "LIMPIAR";
             LIMPIAR.UseVisualStyleBackColor = true;
-
+            LIMPIAR.Click += LIMPIAR_Click_1;
             // 
             // REGRE
             // 
@@ -180,6 +179,7 @@
             REGRE.TabIndex = 46;
             REGRE.Text = "REGRESAR";
             REGRE.UseVisualStyleBackColor = true;
+            REGRE.Click += REGRE_Click_1;
             // 
             // Herencia
             // 

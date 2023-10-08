@@ -34,10 +34,10 @@ namespace Matematica_V8
             double montoAbogado = herenciaTotal * porcentajeAbogado;
 
             // Mostrar los resultados en los TextBoxes individuales
-            textBoxJuan.Text = $"${montoJuan}";
-            textBoxLuis.Text = $"${montoLuis}";
-            textBoxRosa.Text = $"${montoRosa}";
-            textBoxAbogadoResultado.Text = $"${montoAbogado}";
+            textBoxJuan.Text = $"${Math.Round(montoJuan, 3)}";
+            textBoxLuis.Text = $"${Math.Round(montoLuis, 3)}";
+            textBoxRosa.Text = $"${Math.Round(montoRosa, 3)}";
+            textBoxAbogadoResultado.Text = $"${Math.Round(montoAbogado, 3)}";
         }  //finish
 
         private void REGRE_Click(object sender, EventArgs e)
@@ -64,6 +64,22 @@ namespace Matematica_V8
         private void Herencia_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void LIMPIAR_Click_1(object sender, EventArgs e)
+        {
+            textBoxHerencia.Clear();
+            textBoxJuan.Clear();
+            textBoxRosa.Clear();
+            textBoxLuis.Clear();
+            textBoxAbogadoResultado.Clear();
+        }
+
+        private void REGRE_Click_1(object sender, EventArgs e)
+        {
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
+            this.Hide();
         }
     }
 }
