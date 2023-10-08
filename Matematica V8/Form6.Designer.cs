@@ -39,6 +39,8 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            LIMPIAR = new Button();
+            REGRE = new Button();
             SuspendLayout();
             // 
             // textBoxHerencia
@@ -159,12 +161,32 @@
             label5.TabIndex = 44;
             label5.Text = "Ingrese El Monto Total de la Herencia";
             // 
+            // LIMPIAR
+            // 
+            LIMPIAR.Location = new Point(653, 368);
+            LIMPIAR.Name = "LIMPIAR";
+            LIMPIAR.Size = new Size(117, 40);
+            LIMPIAR.TabIndex = 45;
+            LIMPIAR.Text = "LIMPIAR";
+            LIMPIAR.UseVisualStyleBackColor = true;
+            // 
+            // REGRE
+            // 
+            REGRE.Location = new Point(12, 449);
+            REGRE.Name = "REGRE";
+            REGRE.Size = new Size(109, 42);
+            REGRE.TabIndex = 46;
+            REGRE.Text = "REGRESAR";
+            REGRE.UseVisualStyleBackColor = true;
+            // 
             // Herencia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._7;
             ClientSize = new Size(960, 503);
+            Controls.Add(REGRE);
+            Controls.Add(LIMPIAR);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -203,5 +225,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Button LIMPIAR;
+        private Button REGRE;
     }
 }
