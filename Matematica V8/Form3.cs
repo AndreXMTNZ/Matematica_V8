@@ -60,6 +60,11 @@ namespace Matematica_V8
             this.Hide();
             //FIN
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
