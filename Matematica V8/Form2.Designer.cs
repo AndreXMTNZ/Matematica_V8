@@ -207,6 +207,7 @@
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1262, 722);
+            Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(txtX2);
             Controls.Add(label4);
@@ -220,7 +221,6 @@
             Controls.Add(btnCalcular);
             Controls.Add(btnLipiar);
             Controls.Add(brnregresar);
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             MinimizeBox = false;
             Name = "Ecuadratica";

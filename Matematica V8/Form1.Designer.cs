@@ -34,7 +34,7 @@
             btnaa = new Button();
             btnrk = new Button();
             btncb = new Button();
-            btnhr = new Button();
+            herencia = new Button();
             btnpdv = new Button();
             btndracucqueo = new Button();
             btnor = new Button();
@@ -62,7 +62,8 @@
             btnecu.FlatStyle = FlatStyle.Flat;
             btnecu.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnecu.ForeColor = Color.White;
-            btnecu.Location = new Point(246, 164);
+            btnecu.Location = new Point(485, 101);
+            btnecu.Margin = new Padding(3, 2, 3, 2);
             btnecu.Name = "btnecu";
             btnecu.RightToLeft = RightToLeft.No;
             btnecu.Size = new Size(320, 53);
@@ -79,7 +80,8 @@
             btnaa.FlatStyle = FlatStyle.Flat;
             btnaa.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnaa.ForeColor = Color.White;
-            btnaa.Location = new Point(246, 245);
+            btnaa.Location = new Point(248, 172);
+            btnaa.Margin = new Padding(3, 2, 3, 2);
             btnaa.Name = "btnaa";
             btnaa.RightToLeft = RightToLeft.No;
             btnaa.Size = new Size(320, 53);
@@ -120,22 +122,25 @@
             btncb.TabIndex = 4;
             btncb.Text = "Cajero del Banco";
             btncb.UseVisualStyleBackColor = false;
+            btncb.Click += btncb_Click;
             // 
-            // btnhr
+            // herencia
             // 
-            btnhr.BackColor = Color.FromArgb(110, 97, 194);
-            btnhr.Cursor = Cursors.Hand;
-            btnhr.FlatAppearance.BorderSize = 0;
-            btnhr.FlatStyle = FlatStyle.Flat;
-            btnhr.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnhr.ForeColor = Color.White;
-            btnhr.Location = new Point(688, 164);
-            btnhr.Name = "btnhr";
-            btnhr.RightToLeft = RightToLeft.No;
-            btnhr.Size = new Size(320, 53);
-            btnhr.TabIndex = 5;
-            btnhr.Text = "Herencia";
-            btnhr.UseVisualStyleBackColor = false;
+            herencia.BackColor = Color.FromArgb(110, 97, 194);
+            herencia.Cursor = Cursors.Hand;
+            herencia.FlatAppearance.BorderSize = 0;
+            herencia.FlatStyle = FlatStyle.Flat;
+            herencia.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            herencia.ForeColor = Color.White;
+            herencia.Location = new Point(257, 411);
+            herencia.Margin = new Padding(3, 2, 3, 2);
+            herencia.Name = "herencia";
+            herencia.RightToLeft = RightToLeft.No;
+            herencia.Size = new Size(280, 40);
+            herencia.TabIndex = 5;
+            herencia.Text = "Herencia";
+            herencia.UseVisualStyleBackColor = false;
+            herencia.Click += btnhr_Click;
             // 
             // btnpdv
             // 
@@ -193,7 +198,8 @@
             btnpc.FlatStyle = FlatStyle.Flat;
             btnpc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnpc.ForeColor = Color.White;
-            btnpc.Location = new Point(479, 486);
+            btnpc.Location = new Point(704, 172);
+            btnpc.Margin = new Padding(3, 2, 3, 2);
             btnpc.Name = "btnpc";
             btnpc.RightToLeft = RightToLeft.No;
             btnpc.Size = new Size(320, 53);
@@ -223,13 +229,13 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1262, 713);
+            ClientSize = new Size(1209, 629);
             Controls.Add(btndevs);
             Controls.Add(btnpc);
             Controls.Add(btnor);
             Controls.Add(btndracucqueo);
             Controls.Add(btnpdv);
-            Controls.Add(btnhr);
+            Controls.Add(herencia);
             Controls.Add(btncb);
             Controls.Add(btnrk);
             Controls.Add(btnaa);
@@ -254,5 +260,7 @@
         private Button btnor;
         private Button btnpc;
         private Button btndevs;
+        private Button HERENCIA;
+        private Button herencia;
     }
 }

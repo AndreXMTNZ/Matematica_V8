@@ -94,8 +94,8 @@ namespace Matematica_V8
             EcuacionCuadratica(a, b, c, out x1, out x2);
 
             //Mostrar resusltados
-            txtX1.Text = x1.ToString();
-            txtX2.Text = x2.ToString();
+            txtX1.Text = Math.Round(x1, 2).ToString();
+            txtX2.Text = Math.Round(x2, 2).ToString();
             if (txtX1.Text == "NaN")
             {
                 txtX1.Text = "Respuesta imaginaria";
