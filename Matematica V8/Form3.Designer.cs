@@ -64,6 +64,7 @@
             txtHipotenusa.Name = "txtHipotenusa";
             txtHipotenusa.Size = new Size(154, 27);
             txtHipotenusa.TabIndex = 36;
+            txtHipotenusa.TextChanged += txtHipotenusa_TextChanged;
             // 
             // label5
             // 
@@ -213,6 +214,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "aagudos";
             Text = "Angulos Agudos";
+            Load += aagudos_Load;
             ResumeLayout(false);
             PerformLayout();
         }
