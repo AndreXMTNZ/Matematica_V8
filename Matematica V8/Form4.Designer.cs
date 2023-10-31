@@ -48,9 +48,10 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(535, 623);
+            button1.Location = new Point(551, 630);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(211, 57);
+            button1.Size = new Size(185, 43);
             button1.TabIndex = 0;
             button1.Text = "Regresar";
             button1.UseVisualStyleBackColor = false;
@@ -59,55 +60,49 @@
             // textA
             // 
             textA.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textA.Location = new Point(81, 179);
-            textA.Margin = new Padding(3, 4, 3, 4);
+            textA.Location = new Point(83, 179);
             textA.Name = "textA";
-            textA.Size = new Size(66, 47);
+            textA.Size = new Size(58, 39);
             textA.TabIndex = 4;
             // 
             // textB
             // 
             textB.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textB.Location = new Point(247, 179);
-            textB.Margin = new Padding(3, 4, 3, 4);
+            textB.Location = new Point(258, 179);
             textB.Name = "textB";
-            textB.Size = new Size(66, 47);
+            textB.Size = new Size(58, 39);
             textB.TabIndex = 5;
             // 
             // textR
             // 
             textR.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textR.Location = new Point(538, 179);
-            textR.Margin = new Padding(3, 4, 3, 4);
+            textR.Location = new Point(540, 179);
             textR.Name = "textR";
-            textR.Size = new Size(92, 47);
+            textR.Size = new Size(81, 39);
             textR.TabIndex = 6;
             // 
             // textS
             // 
             textS.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textS.Location = new Point(538, 278);
-            textS.Margin = new Padding(3, 4, 3, 4);
+            textS.Location = new Point(540, 295);
             textS.Name = "textS";
-            textS.Size = new Size(92, 47);
+            textS.Size = new Size(81, 39);
             textS.TabIndex = 12;
             // 
             // textD
             // 
             textD.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textD.Location = new Point(247, 278);
-            textD.Margin = new Padding(3, 4, 3, 4);
+            textD.Location = new Point(258, 282);
             textD.Name = "textD";
-            textD.Size = new Size(66, 47);
+            textD.Size = new Size(58, 39);
             textD.TabIndex = 11;
             // 
             // textC
             // 
             textC.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            textC.Location = new Point(81, 278);
-            textC.Margin = new Padding(3, 4, 3, 4);
+            textC.Location = new Point(83, 282);
             textC.Name = "textC";
-            textC.Size = new Size(66, 47);
+            textC.Size = new Size(58, 39);
             textC.TabIndex = 10;
             // 
             // botoncalc
@@ -116,10 +111,9 @@
             botoncalc.FlatAppearance.BorderSize = 0;
             botoncalc.FlatStyle = FlatStyle.Flat;
             botoncalc.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            botoncalc.Location = new Point(180, 378);
-            botoncalc.Margin = new Padding(3, 4, 3, 4);
+            botoncalc.Location = new Point(192, 384);
             botoncalc.Name = "botoncalc";
-            botoncalc.Size = new Size(183, 52);
+            botoncalc.Size = new Size(160, 39);
             botoncalc.TabIndex = 13;
             botoncalc.Text = "CALCULAR";
             botoncalc.UseVisualStyleBackColor = false;
@@ -131,10 +125,9 @@
             limpiar.FlatAppearance.BorderSize = 0;
             limpiar.FlatStyle = FlatStyle.Flat;
             limpiar.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            limpiar.Location = new Point(538, 378);
-            limpiar.Margin = new Padding(3, 4, 3, 4);
+            limpiar.Location = new Point(559, 384);
             limpiar.Name = "limpiar";
-            limpiar.Size = new Size(181, 52);
+            limpiar.Size = new Size(158, 39);
             limpiar.TabIndex = 15;
             limpiar.Text = "LIMPIAR";
             limpiar.UseVisualStyleBackColor = false;
@@ -144,29 +137,27 @@
             // 
             RESX.Enabled = false;
             RESX.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            RESX.Location = new Point(247, 501);
-            RESX.Margin = new Padding(3, 4, 3, 4);
+            RESX.Location = new Point(248, 508);
             RESX.Name = "RESX";
-            RESX.Size = new Size(201, 47);
+            RESX.Size = new Size(176, 39);
             RESX.TabIndex = 20;
             // 
             // RESY
             // 
             RESY.Enabled = false;
             RESY.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            RESY.Location = new Point(550, 501);
-            RESY.Margin = new Padding(3, 4, 3, 4);
+            RESY.Location = new Point(562, 508);
             RESY.Name = "RESY";
-            RESY.Size = new Size(198, 47);
+            RESY.Size = new Size(174, 39);
             RESY.TabIndex = 21;
             // 
             // rkreamer
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1262, 713);
+            ClientSize = new Size(1264, 721);
             Controls.Add(RESY);
             Controls.Add(RESX);
             Controls.Add(limpiar);
@@ -179,6 +170,7 @@
             Controls.Add(textA);
             Controls.Add(button1);
             ForeColor = SystemColors.ControlText;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "rkreamer";
             Text = "Regla Kramer";
             ResumeLayout(false);

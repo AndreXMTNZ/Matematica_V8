@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mcd));
             brnregresar = new Button();
             btnCalcular = new Button();
             label2 = new Label();
@@ -47,9 +48,10 @@
             brnregresar.FlatStyle = FlatStyle.Flat;
             brnregresar.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             brnregresar.ForeColor = SystemColors.Control;
-            brnregresar.Location = new Point(968, 626);
+            brnregresar.Location = new Point(999, 629);
+            brnregresar.Margin = new Padding(3, 2, 3, 2);
             brnregresar.Name = "brnregresar";
-            brnregresar.Size = new Size(216, 53);
+            brnregresar.Size = new Size(189, 40);
             brnregresar.TabIndex = 1;
             brnregresar.Text = "Regresar";
             brnregresar.UseVisualStyleBackColor = false;
@@ -64,9 +66,10 @@
             btnCalcular.FlatStyle = FlatStyle.Flat;
             btnCalcular.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnCalcular.ForeColor = SystemColors.ButtonHighlight;
-            btnCalcular.Location = new Point(477, 620);
+            btnCalcular.Location = new Point(554, 623);
+            btnCalcular.Margin = new Padding(3, 2, 3, 2);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(213, 61);
+            btnCalcular.Size = new Size(186, 46);
             btnCalcular.TabIndex = 3;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = false;
@@ -76,51 +79,55 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.FromArgb(78, 53, 151);
-            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(141, 410);
+            label2.Location = new Point(242, 388);
             label2.Name = "label2";
-            label2.Size = new Size(34, 38);
+            label2.Size = new Size(29, 32);
             label2.TabIndex = 10;
             label2.Text = "b";
             // 
             // txtB
             // 
             txtB.Cursor = Cursors.IBeam;
-            txtB.Location = new Point(179, 418);
+            txtB.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtB.Location = new Point(277, 391);
+            txtB.Margin = new Padding(3, 2, 3, 2);
             txtB.Name = "txtB";
-            txtB.Size = new Size(186, 27);
+            txtB.Size = new Size(163, 29);
             txtB.TabIndex = 9;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(78, 53, 151);
-            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(141, 257);
+            label1.Location = new Point(244, 247);
             label1.Name = "label1";
-            label1.Size = new Size(32, 38);
+            label1.Size = new Size(27, 32);
             label1.TabIndex = 8;
             label1.Text = "a";
             // 
             // txtA
             // 
             txtA.Cursor = Cursors.IBeam;
-            txtA.Location = new Point(179, 266);
+            txtA.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtA.Location = new Point(277, 250);
+            txtA.Margin = new Padding(3, 2, 3, 2);
             txtA.Name = "txtA";
-            txtA.Size = new Size(186, 27);
+            txtA.Size = new Size(163, 29);
             txtA.TabIndex = 7;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(78, 53, 151);
-            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(614, 319);
+            label4.Location = new Point(539, 293);
             label4.Name = "label4";
-            label4.Size = new Size(82, 38);
+            label4.Size = new Size(70, 32);
             label4.TabIndex = 14;
             label4.Text = "MCD";
             label4.Click += label4_Click;
@@ -128,9 +135,11 @@
             // txtX1
             // 
             txtX1.Enabled = false;
-            txtX1.Location = new Point(547, 372);
+            txtX1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtX1.Location = new Point(539, 327);
+            txtX1.Margin = new Padding(3, 2, 3, 2);
             txtX1.Name = "txtX1";
-            txtX1.Size = new Size(229, 27);
+            txtX1.Size = new Size(201, 29);
             txtX1.TabIndex = 15;
             txtX1.TextChanged += txtX1_TextChanged;
             // 
@@ -142,9 +151,10 @@
             btnLipiar.FlatStyle = FlatStyle.Flat;
             btnLipiar.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             btnLipiar.ForeColor = SystemColors.Control;
-            btnLipiar.Location = new Point(195, 622);
+            btnLipiar.Location = new Point(219, 623);
+            btnLipiar.Margin = new Padding(3, 2, 3, 2);
             btnLipiar.Name = "btnLipiar";
-            btnLipiar.Size = new Size(224, 58);
+            btnLipiar.Size = new Size(196, 44);
             btnLipiar.TabIndex = 16;
             btnLipiar.Text = "Limpiar";
             btnLipiar.UseVisualStyleBackColor = false;
@@ -152,10 +162,10 @@
             // 
             // mcd
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources._9;
-            ClientSize = new Size(1262, 713);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1264, 721);
             Controls.Add(btnLipiar);
             Controls.Add(label4);
             Controls.Add(txtX1);
@@ -165,6 +175,7 @@
             Controls.Add(txtA);
             Controls.Add(btnCalcular);
             Controls.Add(brnregresar);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "mcd";
             Text = "MCDracukeo";
             Load += mcd_Load;

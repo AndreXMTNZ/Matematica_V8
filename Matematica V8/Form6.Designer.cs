@@ -45,19 +45,21 @@
             // 
             // textBoxHerencia
             // 
-            textBoxHerencia.Location = new Point(132, 212);
+            textBoxHerencia.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxHerencia.Location = new Point(133, 222);
             textBoxHerencia.Margin = new Padding(3, 2, 3, 2);
             textBoxHerencia.Name = "textBoxHerencia";
-            textBoxHerencia.Size = new Size(124, 23);
+            textBoxHerencia.Size = new Size(124, 36);
             textBoxHerencia.TabIndex = 31;
             // 
             // textBoxJuan
             // 
             textBoxJuan.Enabled = false;
+            textBoxJuan.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxJuan.Location = new Point(628, 194);
             textBoxJuan.Margin = new Padding(3, 2, 3, 2);
             textBoxJuan.Name = "textBoxJuan";
-            textBoxJuan.Size = new Size(142, 23);
+            textBoxJuan.Size = new Size(142, 36);
             textBoxJuan.TabIndex = 34;
             // 
             // button1
@@ -69,7 +71,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(110, 318);
+            button1.Location = new Point(220, 630);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(175, 44);
@@ -81,28 +83,31 @@
             // textBoxLuis
             // 
             textBoxLuis.Enabled = false;
-            textBoxLuis.Location = new Point(628, 240);
+            textBoxLuis.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxLuis.Location = new Point(628, 260);
             textBoxLuis.Margin = new Padding(3, 2, 3, 2);
             textBoxLuis.Name = "textBoxLuis";
-            textBoxLuis.Size = new Size(142, 23);
+            textBoxLuis.Size = new Size(142, 36);
             textBoxLuis.TabIndex = 36;
             // 
             // textBoxRosa
             // 
             textBoxRosa.Enabled = false;
-            textBoxRosa.Location = new Point(628, 281);
+            textBoxRosa.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxRosa.Location = new Point(628, 325);
             textBoxRosa.Margin = new Padding(3, 2, 3, 2);
             textBoxRosa.Name = "textBoxRosa";
-            textBoxRosa.Size = new Size(142, 23);
+            textBoxRosa.Size = new Size(142, 36);
             textBoxRosa.TabIndex = 37;
             // 
             // textBoxAbogadoResultado
             // 
             textBoxAbogadoResultado.Enabled = false;
-            textBoxAbogadoResultado.Location = new Point(628, 318);
+            textBoxAbogadoResultado.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxAbogadoResultado.Location = new Point(628, 397);
             textBoxAbogadoResultado.Margin = new Padding(3, 2, 3, 2);
             textBoxAbogadoResultado.Name = "textBoxAbogadoResultado";
-            textBoxAbogadoResultado.Size = new Size(142, 23);
+            textBoxAbogadoResultado.Size = new Size(142, 36);
             textBoxAbogadoResultado.TabIndex = 39;
             // 
             // label1
@@ -123,7 +128,7 @@
             label2.BackColor = Color.FromArgb(78, 53, 151);
             label2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(464, 240);
+            label2.Location = new Point(464, 260);
             label2.Name = "label2";
             label2.Size = new Size(158, 25);
             label2.TabIndex = 41;
@@ -135,7 +140,7 @@
             label3.BackColor = Color.FromArgb(78, 53, 151);
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(457, 281);
+            label3.Location = new Point(457, 332);
             label3.Name = "label3";
             label3.Size = new Size(165, 25);
             label3.TabIndex = 42;
@@ -147,7 +152,7 @@
             label4.BackColor = Color.FromArgb(78, 53, 151);
             label4.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(407, 316);
+            label4.Location = new Point(407, 404);
             label4.Name = "label4";
             label4.Size = new Size(215, 25);
             label4.TabIndex = 43;
@@ -167,7 +172,7 @@
             // 
             // LIMPIAR
             // 
-            LIMPIAR.Location = new Point(661, 362);
+            LIMPIAR.Location = new Point(532, 630);
             LIMPIAR.Name = "LIMPIAR";
             LIMPIAR.Size = new Size(109, 40);
             LIMPIAR.TabIndex = 45;
@@ -177,7 +182,7 @@
             // 
             // REGRE
             // 
-            REGRE.Location = new Point(661, 435);
+            REGRE.Location = new Point(1024, 628);
             REGRE.Name = "REGRE";
             REGRE.Size = new Size(109, 42);
             REGRE.TabIndex = 46;
@@ -190,7 +195,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._7;
-            ClientSize = new Size(1066, 642);
+            ClientSize = new Size(1264, 721);
             Controls.Add(REGRE);
             Controls.Add(LIMPIAR);
             Controls.Add(label5);
