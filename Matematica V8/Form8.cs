@@ -67,8 +67,26 @@ namespace Matematica_V8
 
 
             //calculitos calculitos 
+            int num1 = Convert.ToInt32(txtA.Text);
+            int num2 = Convert.ToInt32(txtB.Text);
+
+            int mcd = vamocontodo(num1, num2);
+
+            txtX1.Text = $"El MCD de {num1} y {num2} es: {mcd}";
 
 
+        }
+
+        private int vamocontodo(int a, int b)
+        {
+            while (b != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+
+            return a;
         }
 
         private void label4_Click(object sender, EventArgs e)
