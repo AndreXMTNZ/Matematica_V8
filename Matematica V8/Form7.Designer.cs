@@ -180,6 +180,7 @@
             btnclean.TabIndex = 12;
             btnclean.Text = "Limpiar";
             btnclean.UseVisualStyleBackColor = false;
+            btnclean.Click += btnclean_Click;
             // 
             // regresar
             // 
