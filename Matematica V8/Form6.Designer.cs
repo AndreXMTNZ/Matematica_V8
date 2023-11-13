@@ -39,8 +39,8 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            LIMPIAR = new Button();
-            REGRE = new Button();
+            limboton = new Button();
+            regreboton = new Button();
             SuspendLayout();
             // 
             // textBoxHerencia
@@ -119,9 +119,9 @@
             label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(452, 194);
             label1.Name = "label1";
-            label1.Size = new Size(170, 25);
+            label1.Size = new Size(165, 25);
             label1.TabIndex = 40;
-            label1.Text = "Herencia de Juan:";
+            label1.Text = "Herencia de Juan";
             // 
             // label2
             // 
@@ -167,29 +167,45 @@
             label5.ForeColor = SystemColors.Control;
             label5.Location = new Point(40, 185);
             label5.Name = "label5";
-            label5.Size = new Size(343, 25);
+            label5.Size = new Size(348, 25);
             label5.TabIndex = 44;
-            label5.Text = "Ingrese El Monto Total de la Herencia";
+            label5.Text = "Ingrese El Monto Total de la Herencia:";
             // 
-            // LIMPIAR
+            // limboton
             // 
-            LIMPIAR.Location = new Point(532, 630);
-            LIMPIAR.Name = "LIMPIAR";
-            LIMPIAR.Size = new Size(109, 40);
-            LIMPIAR.TabIndex = 45;
-            LIMPIAR.Text = "LIMPIAR";
-            LIMPIAR.UseVisualStyleBackColor = true;
-            LIMPIAR.Click += LIMPIAR_Click_1;
+            limboton.BackColor = Color.FromArgb(35, 179, 179);
+            limboton.BackgroundImageLayout = ImageLayout.None;
+            limboton.Cursor = Cursors.Hand;
+            limboton.FlatAppearance.BorderSize = 0;
+            limboton.FlatStyle = FlatStyle.Flat;
+            limboton.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            limboton.ForeColor = SystemColors.Control;
+            limboton.Location = new Point(502, 630);
+            limboton.Margin = new Padding(3, 2, 3, 2);
+            limboton.Name = "limboton";
+            limboton.Size = new Size(175, 44);
+            limboton.TabIndex = 45;
+            limboton.Text = "Limpiar";
+            limboton.UseVisualStyleBackColor = false;
+            limboton.Click += button2_Click;
             // 
-            // REGRE
+            // regreboton
             // 
-            REGRE.Location = new Point(1024, 628);
-            REGRE.Name = "REGRE";
-            REGRE.Size = new Size(109, 42);
-            REGRE.TabIndex = 46;
-            REGRE.Text = "REGRESAR";
-            REGRE.UseVisualStyleBackColor = true;
-            REGRE.Click += REGRE_Click_1;
+            regreboton.BackColor = Color.FromArgb(35, 179, 179);
+            regreboton.BackgroundImageLayout = ImageLayout.None;
+            regreboton.Cursor = Cursors.Hand;
+            regreboton.FlatAppearance.BorderSize = 0;
+            regreboton.FlatStyle = FlatStyle.Flat;
+            regreboton.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            regreboton.ForeColor = SystemColors.Control;
+            regreboton.Location = new Point(990, 630);
+            regreboton.Margin = new Padding(3, 2, 3, 2);
+            regreboton.Name = "regreboton";
+            regreboton.Size = new Size(175, 44);
+            regreboton.TabIndex = 46;
+            regreboton.Text = "Regresar";
+            regreboton.UseVisualStyleBackColor = false;
+            regreboton.Click += regreboton_Click;
             // 
             // Herencia
             // 
@@ -197,8 +213,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._7;
             ClientSize = new Size(1264, 721);
-            Controls.Add(REGRE);
-            Controls.Add(LIMPIAR);
+            Controls.Add(regreboton);
+            Controls.Add(limboton);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -238,7 +254,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Button LIMPIAR;
-        private Button REGRE;
+        private Button limboton;
+        private Button regreboton;
     }
 }

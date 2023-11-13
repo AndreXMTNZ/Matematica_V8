@@ -120,7 +120,23 @@ namespace Matematica_V8
 
         private void textBoxAbogadoResultado_TextChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBoxHerencia.Clear();
+            textBoxJuan.Clear();
+            textBoxRosa.Clear();
+            textBoxLuis.Clear();
+            textBoxAbogadoResultado.Clear();
+        }
+
+        private void regreboton_Click(object sender, EventArgs e)
+        {
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
+            this.Hide();
         }
     }
 }
