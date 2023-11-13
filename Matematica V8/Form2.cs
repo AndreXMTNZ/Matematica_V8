@@ -90,26 +90,52 @@ namespace Matematica_V8
             }
 
             //Hacemos los calculos
-            double x1, x2;
-            EcuacionCuadratica(a, b, c, out x1, out x2);
+            Double discriminante, x1, x2;
 
-            //Mostrar resusltados
-            txtX1.Text = Math.Round(x1, 2).ToString();
-            txtX2.Text = Math.Round(x2, 2).ToString();
-            if (txtX1.Text == "NaN")
-            {
-                txtX1.Text = "Respuesta imaginaria";
-            }
-            if (txtX2.Text == "NaN")
-            {
-                txtX2.Text = "Respuesta imaginaria";
-            }
-        }
+            discriminante = (b * b) - (4 * a * c);
 
-        private void EcuacionCuadratica(double a, double b, double c, out double x1, out double x2)
-        {
-            x1 = (-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a);
-            x2 = (-b - Math.Sqrt(b * b - 4 * a * c)) / (2 * a);
+            if (discriminante >= 0)
+            {
+                // Soluciones reales
+                x1 = (-b + Math.Sqrt(discriminante)) / (2 * a);
+                x2 = (-b - Math.Sqrt(discriminante)) / (2 * a);
+
+                x1 = Math.Round(x1, 2);
+                x2 = Math.Round(x2, 2);
+
+                // Mostrar resultados
+                txtX1.Text = x1.ToString();
+                txtX2.Text = x2.ToString();
+
+            }
+            else
+            {
+                // Soluciones complejas
+                // x1 = -b / (2 * a);
+                // x2 = Math.Sqrt(-discriminante) / (2 * a);
+
+                double parteReal = -b / (2 * a);
+                double parteImaginaria = Math.Sqrt(-discriminante) / (2 * a);
+
+                string raiz1 = $"{Math.Round(parteReal, 2)} + {Math.Round(parteImaginaria, 2)}i";
+                string raiz2 = $"{Math.Round(parteReal, 2)} - {Math.Round(parteImaginaria, 2)}i";
+
+
+                //parteImaginaria = Math.Round(parteImaginaria);
+                //x1 = parteReal+parteImaginaria;
+                //x2 = parteImaginaria;
+
+                txtX1.Text = raiz1;
+                txtX2.Text = raiz2;
+
+                return;
+            }
+
+
+
+            // Mostrar resultados
+            txtX1.Text = x1.ToString();
+            txtX2.Text = x2.ToString();
         }
         private void btnLipiar_Click(object sender, EventArgs e)
         {
