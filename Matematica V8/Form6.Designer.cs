@@ -109,6 +109,7 @@
             textBoxAbogadoResultado.Name = "textBoxAbogadoResultado";
             textBoxAbogadoResultado.Size = new Size(142, 36);
             textBoxAbogadoResultado.TabIndex = 39;
+            textBoxAbogadoResultado.TextChanged += textBoxAbogadoResultado_TextChanged;
             // 
             // label1
             // 

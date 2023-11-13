@@ -29,15 +29,51 @@ namespace Matematica_V8
             double montoRosa = (2 * herenciaTotal) / 9;
 
             // Calcular el porcentaje que el abogado cobrará
+            Double j = herenciaTotal / 3;
+            Double l = (4 * herenciaTotal) / 9;
+            Double r = (2 * herenciaTotal) / 9;
 
-            double porcentajeAbogado = (herenciaTotal < (herenciaTotal / 3)) ? 0.03 : 0.05;
-            double montoAbogado = herenciaTotal * porcentajeAbogado;
+            Double b = 0;
+            Double b1 = 0;
+            Double b2 = 0;
+            Double b3 = 0;
+
+            if (j < (herenciaTotal / 3))
+            {
+                b1 = j * 0.03;
+            }
+            if (j >= (herenciaTotal / 3))
+            {
+                b1 = j * 0.05;
+            }
+
+            if (l < (herenciaTotal / 3))
+            {
+                b2 = l * 0.03;
+            }
+            if (l >= (herenciaTotal / 3))
+            {
+                b2 = l * 0.05;
+            }
+
+            if (r < (herenciaTotal / 3))
+            {
+                b3 = r * 0.03;
+            }
+            if (r >= (herenciaTotal / 3))
+            {
+                b3 = r * 0.05;
+            }
+
+            b = b1 + b2 + b3;
+
 
             // Mostrar los resultados en los TextBoxes individuales
             textBoxJuan.Text = $"${Math.Round(montoJuan, 3)}";
             textBoxLuis.Text = $"${Math.Round(montoLuis, 3)}";
             textBoxRosa.Text = $"${Math.Round(montoRosa, 3)}";
-            textBoxAbogadoResultado.Text = $"${Math.Round(montoAbogado, 3)}";
+            textBoxAbogadoResultado.Text = b.ToString("C2");
+
         }  //finish
 
         private void REGRE_Click(object sender, EventArgs e)
@@ -80,6 +116,11 @@ namespace Matematica_V8
             Menu ventanamain = new Menu();
             ventanamain.Show();
             this.Hide();
+        }
+
+        private void textBoxAbogadoResultado_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
