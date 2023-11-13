@@ -56,7 +56,7 @@
             button1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(396, 262);
             button1.Name = "button1";
-            button1.Size = new Size(95, 42);
+            button1.Size = new Size(105, 42);
             button1.TabIndex = 0;
             button1.Text = "RETIRAR";
             button1.UseVisualStyleBackColor = false;
@@ -79,9 +79,9 @@
             button2.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(398, 310);
             button2.Name = "button2";
-            button2.Size = new Size(93, 42);
+            button2.Size = new Size(103, 42);
             button2.TabIndex = 32;
-            button2.Text = "NUEVO RETIRO";
+            button2.Text = "LIMPIAR";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -245,7 +245,7 @@
             btnBorrarUltimo.BackgroundImage = Properties.Resources.fondopiedra1;
             btnBorrarUltimo.Location = new Point(398, 358);
             btnBorrarUltimo.Name = "btnBorrarUltimo";
-            btnBorrarUltimo.Size = new Size(93, 102);
+            btnBorrarUltimo.Size = new Size(103, 102);
             btnBorrarUltimo.TabIndex = 45;
             btnBorrarUltimo.Text = "<---";
             btnBorrarUltimo.UseVisualStyleBackColor = false;
