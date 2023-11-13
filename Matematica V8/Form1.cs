@@ -67,5 +67,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btnpdv_Click(object sender, EventArgs e)
+        {
+            Promedio ventana = new Promedio();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

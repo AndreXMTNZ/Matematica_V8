@@ -152,7 +152,7 @@
             btnpdv.FlatStyle = FlatStyle.Flat;
             btnpdv.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnpdv.ForeColor = Color.White;
-            btnpdv.Location = new Point(731, 253);
+            btnpdv.Location = new Point(707, 250);
             btnpdv.Margin = new Padding(3, 2, 3, 2);
             btnpdv.Name = "btnpdv";
             btnpdv.RightToLeft = RightToLeft.No;
@@ -160,6 +160,7 @@
             btnpdv.TabIndex = 6;
             btnpdv.Text = "Promedio de Ventas";
             btnpdv.UseVisualStyleBackColor = false;
+            btnpdv.Click += btnpdv_Click;
             // 
             // btndracucqueo
             // 
@@ -169,7 +170,7 @@
             btndracucqueo.FlatStyle = FlatStyle.Flat;
             btndracucqueo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btndracucqueo.ForeColor = Color.White;
-            btndracucqueo.Location = new Point(731, 328);
+            btndracucqueo.Location = new Point(707, 329);
             btndracucqueo.Margin = new Padding(3, 2, 3, 2);
             btndracucqueo.Name = "btndracucqueo";
             btndracucqueo.RightToLeft = RightToLeft.No;
@@ -187,7 +188,7 @@
             btnor.FlatStyle = FlatStyle.Flat;
             btnor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnor.ForeColor = Color.White;
-            btnor.Location = new Point(731, 410);
+            btnor.Location = new Point(707, 411);
             btnor.Margin = new Padding(3, 2, 3, 2);
             btnor.Name = "btnor";
             btnor.RightToLeft = RightToLeft.No;
@@ -204,7 +205,7 @@
             btnpc.FlatStyle = FlatStyle.Flat;
             btnpc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnpc.ForeColor = Color.White;
-            btnpc.Location = new Point(731, 171);
+            btnpc.Location = new Point(707, 170);
             btnpc.Margin = new Padding(3, 2, 3, 2);
             btnpc.Name = "btnpc";
             btnpc.RightToLeft = RightToLeft.No;
