@@ -88,5 +88,15 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void Menu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("¿Estás seguro de que quieres cerrar la aplicación?", "Confirmar cierre", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.No)
+            {
+                e.Cancel = true; // Cancela el cierre del formulario
+            }
+        }
     }
 }
