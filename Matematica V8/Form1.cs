@@ -74,5 +74,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btnor_Click(object sender, EventArgs e)
+        {
+            Ordenamiento ventana = new Ordenamiento();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

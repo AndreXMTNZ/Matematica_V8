@@ -21,5 +21,12 @@ namespace Matematica_V8
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Menu ventanamain = new Menu();
+            ventanamain.Show();
+            this.Hide();
+        }
     }
 }

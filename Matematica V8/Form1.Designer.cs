@@ -196,6 +196,7 @@
             btnor.TabIndex = 8;
             btnor.Text = "Ordenamiento";
             btnor.UseVisualStyleBackColor = false;
+            btnor.Click += btnor_Click;
             // 
             // btnpc
             // 
