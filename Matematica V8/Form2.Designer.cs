@@ -178,6 +178,7 @@ namespace Matematica_V8
             // 
             // txtX1
             // 
+            txtX1.Cursor = Cursors.No;
             txtX1.Enabled = false;
             txtX1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             txtX1.Location = new Point(582, 435);
