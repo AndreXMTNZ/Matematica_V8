@@ -214,6 +214,7 @@
             btnpc.TabIndex = 9;
             btnpc.Text = "Plano Cartesiano";
             btnpc.UseVisualStyleBackColor = false;
+            btnpc.Click += btnpc_Click;
             // 
             // btndevs
             // 

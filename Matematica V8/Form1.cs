@@ -81,5 +81,12 @@ namespace Matematica_V8
             ventana.Show();
             this.Hide();
         }
+
+        private void btnpc_Click(object sender, EventArgs e)
+        {
+            PlanoC ventana = new PlanoC();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }
