@@ -120,6 +120,7 @@
             btn1.TabIndex = 8;
             btn1.Text = "Calcular";
             btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click;
             // 
             // button1
             // 
@@ -136,6 +137,7 @@
             button1.TabIndex = 9;
             button1.Text = "Limpiar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
