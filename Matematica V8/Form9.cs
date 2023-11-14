@@ -16,5 +16,10 @@ namespace Matematica_V8
         {
             InitializeComponent();
         }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
