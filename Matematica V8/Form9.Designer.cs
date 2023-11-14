@@ -45,6 +45,7 @@
             txtb1.BackColor = Color.FromArgb(193, 255, 114);
             txtb1.BorderStyle = BorderStyle.None;
             txtb1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txtb1.ForeColor = Color.FromArgb(64, 64, 64);
             txtb1.Location = new Point(77, 297);
             txtb1.Name = "txtb1";
             txtb1.Size = new Size(188, 32);
@@ -55,6 +56,7 @@
             txt4.BackColor = Color.FromArgb(64, 64, 64);
             txt4.BorderStyle = BorderStyle.None;
             txt4.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4.ForeColor = Color.FromArgb(193, 255, 114);
             txt4.Location = new Point(77, 473);
             txt4.Name = "txt4";
             txt4.Size = new Size(188, 32);
@@ -65,6 +67,7 @@
             txt5.BackColor = Color.FromArgb(64, 64, 64);
             txt5.BorderStyle = BorderStyle.None;
             txt5.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5.ForeColor = Color.FromArgb(193, 255, 114);
             txt5.Location = new Point(366, 473);
             txt5.Name = "txt5";
             txt5.Size = new Size(188, 32);
@@ -76,6 +79,7 @@
             txt6.BackColor = Color.FromArgb(64, 64, 64);
             txt6.BorderStyle = BorderStyle.None;
             txt6.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txt6.ForeColor = Color.FromArgb(193, 255, 114);
             txt6.Location = new Point(656, 473);
             txt6.Name = "txt6";
             txt6.Size = new Size(188, 32);
@@ -86,6 +90,7 @@
             txtb2.BackColor = Color.FromArgb(193, 255, 114);
             txtb2.BorderStyle = BorderStyle.None;
             txtb2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txtb2.ForeColor = Color.FromArgb(64, 64, 64);
             txtb2.Location = new Point(387, 297);
             txtb2.Name = "txtb2";
             txtb2.Size = new Size(188, 32);
@@ -96,6 +101,7 @@
             txtb3.BackColor = Color.FromArgb(193, 255, 114);
             txtb3.BorderStyle = BorderStyle.None;
             txtb3.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            txtb3.ForeColor = Color.FromArgb(64, 64, 64);
             txtb3.Location = new Point(694, 297);
             txtb3.Name = "txtb3";
             txtb3.Size = new Size(188, 32);
