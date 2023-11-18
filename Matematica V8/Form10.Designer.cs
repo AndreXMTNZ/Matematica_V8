@@ -83,6 +83,7 @@
             pictureBoxPlano.Size = new Size(762, 426);
             pictureBoxPlano.TabIndex = 4;
             pictureBoxPlano.TabStop = false;
+            pictureBoxPlano.Click += pictureBoxPlano_Click;
             // 
             // label1
             // 

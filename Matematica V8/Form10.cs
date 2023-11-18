@@ -72,14 +72,32 @@ namespace Matematica_V8
 
         private void btnclean_Click(object sender, EventArgs e)
         {
-            
+            txt.Text = "";
+            txtX.Text = "";
+            pictureBoxPlano.Text = "";
+            LimpiarGrafica();
         }
+
+        private void LimpiarGrafica()
+        {
+            // Limpiar el PictureBox
+            using (Graphics g = pictureBoxPlano.CreateGraphics())
+            {
+                g.Clear(Color.White);
+            }
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             Menu ventanamain = new Menu();
             ventanamain.Show();
             this.Hide();
+        }
+
+        private void pictureBoxPlano_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
